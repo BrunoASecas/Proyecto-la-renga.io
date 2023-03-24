@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* 
+COLERES:
+  Beige #D5C3A6
+  Rojo  #C13134
+  Lila  #9B89A9
+FUENTES:
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+ */
+
+/* Estilos del header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+  background-color: #c13134;
+}
+header nav {
+  display: flex;
+  width: 100%;
+}
+header nav ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  list-style: none;
+  text-shadow: 1px 1px black;
+}
+header nav ul li {
+  display: flex;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #d5c3a6;
+  font-size: 25px;
+}
+/* header div a img {
+  width: 40px;
+  height: 40px;
+} */
+
+/* Estilos del main */
+main {
+  background-color: #d5c3a6;
+}
+.imagenPrincipalIndex {
+  width: 100%;
+  height: 500px;
+}
+.textoPrincipalIndex {
+  width: 100%;
+  height: 200px;
+  /* padding: 10px; */
+  margin-top: -50px;
+}
+.textoPrincipalIndex h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  color: beige;
+  text-shadow: 2px 2px black;
+}
+.textoPrincipalIndex p {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+}
+.videosIndex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.mainContacto {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: auto;
+}
+.mainGaleria {
+  width: 100%;
+  height: 430px;
+}
+.mainDiscos {
+  width: 100%;
+}
+.mainDiscos section {
+  display: flex;
+  justify-content: center;
+}
+.container-discos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.container-discos section {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  font-family: "Roboto", sans-serif;
+}
+.mainHistoria {
+  width: 100%;
+  height: 430px;
+}
+
+main form {
+  width: 100%;
+  /* height: 150px; */
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+}
+
+main form fieldset {
+  width: 150px;
+  height: 300px;
+}
+.formularioBotones {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  margin: 5px;
+}
+.formularioBotones div {
+  margin: 5px;
+}
+/* Estilos del footer */
+
+footer {
+  width: 100%;
+  display: flex;
+  background-color: #9b89a9;
+  justify-content: space-evenly;
+  padding-top: 15px;
+}
+
+footer ul {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+footer ul li a img {
+  width: 30px;
+  height: 30px;
+}
