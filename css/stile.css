@@ -78,7 +78,7 @@ main {
 .videosIndex {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .mainContacto {
@@ -165,16 +165,22 @@ footer ul li a img {
     align-items: center;
   }
 }
-@media (min-width: 700px; max-width: 940px) {
+@media (max-width: 940px) {
   .container-discos {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  .video-responsive1 {
-    width: 50%;
+  .videosIndex {
+    width: 100%;
   }
-  .video-responsive2 {
-    width: 50%;
+  .video-responsive1 {
+    width: auto;
+  }
+  .video-responsive1 iframe {
+    width: auto;
+  }
+  .video-responsive2 iframe {
+    width: auto;
   }
 }
 @media (max-width: 768px) {
@@ -199,25 +205,11 @@ footer ul li a img {
   }
 }
 /* @media (max-width: 620px) {
-  .videoGrid1 {
-    overflow: hidden;
-    padding-bottom: 400px;
-    position: relative;
-    height: 0;
-  }
-  .videoGrid2 {
-    overflow: hidden;
-    padding-bottom: 400px; 
-    position: relative;
-    height: 0;
-  }
-  .videosIndex div {
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-  }
+  
 } */
 @media (max-width: 320px) {
+  footer ul li a img {
+    width: 15px;
+    height: 15px;
+  }
 }
