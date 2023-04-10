@@ -1,0 +1,42 @@
+.mainIndex {
+  display: flex;
+  flex-direction: column;
+  background-color: #d5c3a6;
+  height: auto;
+}
+.hero-section {
+  height: auto;
+  padding-bottom: 30px;
+}
+.imagenPrincipalIndex {
+  width: 100%;
+  height: auto;
+}
+.textoPrincipalIndex {
+  width: 100%;
+  height: auto;
+  margin-top: -50px;
+}
+.textoPrincipalIndex h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  color: beige;
+  text-shadow: 2px 2px black;
+}
+.textoPrincipalIndex p {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  height: auto;
+  padding: 10px;
+}
+.videosIndex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.video-responsive1 iframe {
+  margin-top: 15px;
+}
+.video-responsive2 iframe {
+  margin-top: 15px;
+}

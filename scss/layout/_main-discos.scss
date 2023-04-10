@@ -1,0 +1,24 @@
+.mainDiscos {
+  width: 100%;
+  background-color: #d5c3a6;
+}
+.mainDiscos section {
+  display: flex;
+  justify-content: center;
+}
+.mainDiscos section h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  color: beige;
+  text-shadow: 2px 2px black;
+}
+.container-discos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.container-discos section {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  font-family: "Roboto", sans-serif;
+}

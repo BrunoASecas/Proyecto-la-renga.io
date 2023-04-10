@@ -1,0 +1,27 @@
+@media (max-width: 670px) {
+  .container-discos {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .textoPrincipalIndex h1 {
+    font-size: 30px;
+  }
+  .textoPrincipalIndex p {
+    font-size: 20px;
+  }
+  .videosIndex {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .video-responsive1 {
+    width: auto;
+  }
+  .video-responsive1 iframe {
+    width: auto;
+  }
+  .video-responsive2 iframe {
+    width: auto;
+  }
+}

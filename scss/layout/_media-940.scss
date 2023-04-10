@@ -1,0 +1,18 @@
+@media (max-width: 940px) {
+  .container-discos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .videosIndex {
+    width: 100%;
+  }
+  .video-responsive1 {
+    width: auto;
+  }
+  .video-responsive1 iframe {
+    width: auto;
+  }
+  .video-responsive2 iframe {
+    width: auto;
+  }
+}

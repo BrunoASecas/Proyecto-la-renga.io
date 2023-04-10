@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+  .logoHeader {
+    height: 90px;
+  }
+  header nav ul li a {
+    font-size: 15px;
+  }
+  .videosIndex {
+    width: 100%;
+  }
+  .video-responsive1 {
+    width: auto;
+  }
+  .video-responsive1 iframe {
+    width: auto;
+  }
+  .video-responsive2 iframe {
+    width: auto;
+  }
+}
