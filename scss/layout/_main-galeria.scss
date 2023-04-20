@@ -1,4 +1,34 @@
 .mainGaleria {
+  background-color: $background-principal;
   width: 100%;
-  height: 430px;
+  height: auto;
+  h1 {
+    @include titulo;
+    text-align: center;
+  }
+}
+.container {
+  div {
+    p {
+      text-align: center;
+      font-family: "Roboto", sans-serif;
+      font-size: 30px;
+      margin: 10px;
+    }
+  }
+  div {
+    div {
+      img {
+        width: 100%;
+        height: 250px;
+      }
+    }
+  }
+}
+#galeria .col-lg-4 {
+  margin: 0 !important;
+  padding: 25px;
+}
+#galeria img:hover {
+  border: 5px solid $background-principal;
 }

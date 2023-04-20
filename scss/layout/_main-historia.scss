@@ -1,4 +1,35 @@
 .mainHistoria {
   width: 100%;
   height: auto;
+  background-color: $background-principal;
+  padding-bottom: 5px;
+  h1 {
+    text-align: center;
+    @include titulo;
+  }
+}
+.comienzos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  div {
+    img {
+      width: 450;
+      height: 300px;
+      border-radius: 0.5rem;
+      box-shadow: 7px 7px 12px 0 rgba(20, 20, 20, 0.3);
+    }
+  }
+  div {
+    p {
+      font-family: "Roboto", sans-serif;
+      margin: 5px;
+    }
+  }
+}
+.primer-disco {
+  @extend .comienzos;
+}
+.masividad {
+  @extend .comienzos;
 }

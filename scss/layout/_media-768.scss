@@ -20,4 +20,12 @@
   .video-responsive2 iframe {
     width: auto;
   }
+  .comienzos {
+    display: flex;
+    flex-direction: column;
+  }
+  .primer-disco {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }

@@ -45,6 +45,10 @@ header nav ul li a {
   font-size: 25px;
 }
 
+header nav ul li a:hover {
+  color: #9b89a9;
+}
+
 /* header div a img {
     width: 40px;
     height: 40px;
@@ -103,11 +107,64 @@ header nav ul li a {
 .mainHistoria {
   width: 100%;
   height: auto;
+  background-color: #d5c3a6;
+  padding-bottom: 5px;
+}
+.mainHistoria h1 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  color: #9b89a9;
+  text-shadow: 2px 2px black;
+}
+
+.comienzos, .masividad, .primer-disco {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.comienzos div img, .masividad div img, .primer-disco div img {
+  width: 450;
+  height: 300px;
+  border-radius: 0.5rem;
+  box-shadow: 7px 7px 12px 0 rgba(20, 20, 20, 0.3);
+}
+.comienzos div p, .masividad div p, .primer-disco div p {
+  font-family: "Roboto", sans-serif;
+  margin: 5px;
 }
 
 .mainGaleria {
+  background-color: #d5c3a6;
   width: 100%;
-  height: 430px;
+  height: auto;
+}
+.mainGaleria h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  color: #9b89a9;
+  text-shadow: 2px 2px black;
+  text-align: center;
+}
+
+.container div p {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  margin: 10px;
+}
+.container div div img {
+  width: 100%;
+  height: 250px;
+}
+
+#galeria .col-lg-4 {
+  margin: 0 !important;
+  padding: 25px;
+}
+
+#galeria img:hover {
+  border: 5px solid #d5c3a6;
 }
 
 .mainDiscos {
@@ -123,7 +180,7 @@ header nav ul li a {
 .mainDiscos section h1 {
   font-family: "Open Sans", sans-serif;
   font-size: 40px;
-  color: beige;
+  color: #9b89a9;
   text-shadow: 2px 2px black;
 }
 
@@ -147,6 +204,7 @@ header nav ul li a {
   justify-content: center;
   text-align: center;
   padding: auto;
+  background-color: #d5c3a6;
 }
 
 form {
@@ -235,6 +293,10 @@ footer ul li a img {
   .video-responsive2 iframe {
     width: auto;
   }
+  .comienzos div img, .primer-disco div img, .masividad div img {
+    width: 320;
+    height: 220px;
+  }
 }
 @media (max-width: 768px) {
   header {
@@ -257,6 +319,14 @@ footer ul li a img {
   }
   .video-responsive2 iframe {
     width: auto;
+  }
+  .comienzos, .primer-disco, .masividad {
+    display: flex;
+    flex-direction: column;
+  }
+  .primer-disco {
+    display: flex;
+    flex-direction: column-reverse;
   }
 }
 @media (max-width: 670px) {
@@ -317,6 +387,36 @@ footer ul li a img {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .masividad div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .masividad div img {
+    width: 270px;
+    height: 180px;
+  }
+  .comienzos div, .primer-disco div, .masividad div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .comienzos div img, .primer-disco div img, .masividad div img {
+    width: 270px;
+    height: 180px;
+  }
+  .primer-disco div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .primer-disco div img {
+    width: 270px;
+    height: 180px;
   }
 }
 @media (max-width: 320px) {

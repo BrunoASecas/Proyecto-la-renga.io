@@ -30,4 +30,40 @@
     flex-direction: column;
     align-items: center;
   }
+  .masividad {
+    div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 270px;
+        height: 180px;
+      }
+    }
+  }
+  .comienzos {
+    div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 270px;
+        height: 180px;
+      }
+    }
+  }
+  .primer-disco {
+    div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 270px;
+        height: 180px;
+      }
+    }
+  }
 }
